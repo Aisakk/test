@@ -1,0 +1,59 @@
+.container-user{
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    width: 100%;
+   padding: 15px;
+}
+.container-user > .avatar{
+}
+.container-user > .avatar > img{
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+}
+.container-user > .user{
+    display: flex;
+    flex-direction: column;
+ 
+    margin-left: 1rem;
+}
+.container-user > .user > p {
+    padding-left: 7px;
+   
+}
+.container-user > .enlaces {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn{
+    padding: 7px;
+    border-radius: 5px;
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+.btn-account{
+    background-color: rgb(255, 96, 96);
+}
+.btn-account:hover{
+    background-color: rgb(255, 136, 136);
+}
+.btn-orgs{
+    background-color: rgb(6, 114, 255);
+}
+.btn-orgs:hover{
+    background-color: rgb(75, 153, 255);
+}
+.btn-repo{
+    background-color: rgb(175, 206, 4);
+}
+.btn-repo:hover{
+    background-color: rgb(214, 252, 0);
+}
